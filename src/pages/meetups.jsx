@@ -17,10 +17,14 @@ class Meetups extends React.Component {
   render() {
     return (
       <Layout>
-        {this.state.meetups.map(meetup => (
-          <Meetup meetup={meetup} key={meetup.name} />
-        ))}
-        <Link to="/">Go back to the homepage</Link>
+        <div className="container mx-auto py-8">
+          {this.state.meetups.map(meetup => (
+            <Meetup meetup={meetup} key={meetup.name} />
+          ))}
+          <div className="text-center py-4">
+            <Link to="/">Go back to the homepage</Link>
+          </div>
+        </div>
       </Layout>
     )
   }
