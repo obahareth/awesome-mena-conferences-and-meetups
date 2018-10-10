@@ -1,0 +1,10 @@
+{
+  "meetups": [
+    {
+      "name": "Riyadh Data Geeks",
+      "description": "تَجمُّع للمهتمين والشغوفين بالبيانات في الرياض لتسهيل التواصل بينهم وتبادل الخبرات",
+      "website": "https://meetup.com/DataGeeks",
+      "twitter": "@DataRiyadh"
+    }
+  ]
+}

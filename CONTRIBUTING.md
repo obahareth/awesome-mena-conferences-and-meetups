@@ -1,0 +1,1 @@
+* All conferences and meetups must have both an Arabic and English version added (might change this to support Arabic-only/English-only conferences).

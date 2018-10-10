@@ -1,0 +1,10 @@
+{
+  "meetups": [
+    {
+      "name": "Riyadh Data Geeks",
+      "description": "We are a group of enthusiasts who love to extract insights from data and to spread the knowledge and skills required to do so. We focus more on the process and techniques than tools yet we do discuss tools from time to time. Our topics include but not limited to data science, analytics, open data, data hackathons, visualization and of course big data. Bring your curiosity and we shall bring the value together.",
+      "website": "https://meetup.com/DataGeeks",
+      "twitter": "@DataRiyadh"
+    }
+  ]
+}
