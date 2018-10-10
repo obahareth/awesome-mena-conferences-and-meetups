@@ -14,8 +14,16 @@ const Conference = ({ conference }) => (
 
       <div className="leading-normal">{conference.description}</div>
       <div className="flex justify-between mt-4">
-        <a className="no-underline text-purple-dark hover:underline"href={conference.website}>{conference.website}</a>
-        <a className="no-underline text-purple-dark hover:underline"href={`https://twitter.com/${conference.twitter}`}>
+        <a
+          className="no-underline text-purple-dark hover:underline"
+          href={conference.website}
+        >
+          {conference.website}
+        </a>
+        <a
+          className="no-underline text-purple-dark hover:underline"
+          href={`https://twitter.com/${conference.twitter}`}
+        >
           {conference.twitter}
         </a>
       </div>
