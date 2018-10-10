@@ -7,7 +7,7 @@ For now, this is a [Gatsby](https://www.gatsbyjs.org/) that will be hosted on a 
 
 - [Conferences](#conferences)
 - [Meetups](#meetups)
-- [Running(#running)
+- [Running](#running)
 
 ## Conferences
 TODO: see [issue #8](/../../issues/8)
