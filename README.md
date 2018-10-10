@@ -3,6 +3,18 @@ A list of awesome conferences and meetups in the MENA region. This will hopefull
 
 For now, this is a [Gatsby](https://www.gatsbyjs.org/) that will be hosted on a website in the future.
 
+##### Contents
+
+- [Conferences](#conferences)
+- [Meetups](#meetups)
+- [Running(#running)
+
+## Conferences
+TODO: see [issue #8](/../../issues/8)
+
+## Meetups
+
+TODO: see [issue #8](/../../issues/8)
 
 ## Running
 
