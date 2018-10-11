@@ -14,10 +14,15 @@
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-source-filesystem": "^2.0.2",
     "gatsby-transformer-json": "^2.1.4",
+    "i18next": "^11.9.1",
+    "i18next-browser-languagedetector": "^2.2.3",
+    "i18next-xhr-backend": "^1.5.1",
     "postcss-cli": "^6.0.0",
     "react": "^16.5.1",
+    "react-cookies": "^0.1.0",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
+    "react-i18next": "^8.0.7",
     "tailwindcss": "^0.6.6"
   },
   "keywords": [
