@@ -1,5 +1,7 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
+import { withNamespaces } from "react-i18next"
 
 import Layout from '../components/layout'
 import Conference from '../components/conference'
@@ -9,24 +11,25 @@ let parseConferences = data => {
   return data.allFile.edges[0].node.childConferencesJson.conferences
 }
 
-let Conferences = ({ data }) => {
+let Conferences = ({ data, t }) => {
   let conferences = parseConferences(data)
 
   return (
     <Layout>
+      <Helmet title={t('heading')}></Helmet>
       <div className="container mx-auto py-8">
         {conferences.map(conference => (
           <Conference conference={conference} key={conference.name} />
         ))}
         <div className="text-center py-4">
-          <Link to="/">Go back to the homepage</Link>
+          <Link to="/">{t("back_to_homepage")}</Link>
         </div>
       </div>
     </Layout>
   )
 }
 
-export default Conferences
+export default withNamespaces("conferences")(Conferences)
 
 // TODO: Use current locale
 export const query = graphql`
