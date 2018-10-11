@@ -30,9 +30,11 @@
     "build": "npm run build:css && gatsby build",
     "develop": "npm run watch:css & gatsby develop",
     "format": "prettier --write '**/*.{js,jsx}'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.14.2"
   },
   "repository": {

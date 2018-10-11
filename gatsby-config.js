@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
+  pathPrefix: "/awesome-mena-conferences-and-meetups",
   plugins: [
     'gatsby-plugin-react-helmet',
     {
