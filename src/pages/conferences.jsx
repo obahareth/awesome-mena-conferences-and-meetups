@@ -3,22 +3,19 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import Conference from '../components/conference'
-import { readJson, getJsonUrl } from '../helpers/json-fetcher'
 
-class Conferences extends React.Component {
-  state = { conferences: [] }
+let parseConferences = (data) => {
+  // TODO: Make this safer
+  return data.allFile.edges[0].node.childConferencesJson.conferences;
+}
 
-  componentDidMount() {
-    readJson(getJsonUrl(this.props.data), []).then(json => {
-      this.setState({ conferences: json.conferences })
-    })
-  }
+let Conferences = ({data}) => {
+    let conferences = parseConferences(data);
 
-  render() {
     return (
       <Layout>
         <div className="container mx-auto py-8">
-          {this.state.conferences.map(conference => (
+          {conferences.map(conference => (
             <Conference conference={conference} key={conference.name} />
           ))}
           <div className="text-center py-4">
@@ -27,22 +24,28 @@ class Conferences extends React.Component {
         </div>
       </Layout>
     )
-  }
 }
 
 export default Conferences
 
 // TODO: Use current locale
 export const query = graphql`
-  {
-    allFile(
-      filter: { name: { eq: "en" }, relativeDirectory: { eq: "conferences" } }
-    ) {
-      edges {
-        node {
-          publicURL
+{
+  allFile(filter: {name: {eq: "en"}, relativeDirectory: {eq: "conferences"}}) {
+    edges {
+      node {
+        childConferencesJson {
+          conferences {
+            name
+            date
+            location
+            description
+            website
+            twitter
+          }
         }
       }
     }
   }
+}
 `
