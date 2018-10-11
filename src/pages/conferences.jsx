@@ -17,10 +17,14 @@ class Conferences extends React.Component {
   render() {
     return (
       <Layout>
-        {this.state.conferences.map(conference => (
-          <Conference conference={conference} key={conference.name} />
-        ))}
-        <Link to="/">Go back to the homepage</Link>
+        <div className="container mx-auto py-8">
+          {this.state.conferences.map(conference => (
+            <Conference conference={conference} key={conference.name} />
+          ))}
+          <div className="text-center py-4">
+            <Link to="/">Go back to the homepage</Link>
+          </div>
+        </div>
       </Layout>
     )
   }

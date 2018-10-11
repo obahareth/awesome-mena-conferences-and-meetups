@@ -1,23 +1,28 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 const Meetup = ({ meetup }) => (
-  <div>
-    <label>Name</label>
-    <p>{meetup.name}</p>
+  <div className="bg-white rounded shadow">
+    <div className="bg-grey-lighter border-b border-grey-light text-lg font-bold text-center py-4">
+      {meetup.name}
+    </div>
 
-    <label>Description</label>
-    <p>{meetup.description}</p>
-
-    <label>Website</label>
-    <br />
-    <a href={meetup.website}>{meetup.website}</a>
-    <br />
-    <br />
-
-    <label>Twitter</label>
-    <br />
-    <a href={`https://twitter.com/${meetup.twitter}`}>{meetup.twitter}</a>
+    <div className="p-4">
+      <div className="leading-normal">{meetup.description}</div>
+      <div className="flex justify-between mt-4">
+        <a
+          className="no-underline text-purple-dark hover:underline"
+          href={meetup.website}
+        >
+          {meetup.website}
+        </a>
+        <a
+          className="no-underline text-purple-dark hover:underline"
+          href={`https://twitter.com/${meetup.twitter}`}
+        >
+          {meetup.twitter}
+        </a>
+      </div>
+    </div>
   </div>
 )
 
