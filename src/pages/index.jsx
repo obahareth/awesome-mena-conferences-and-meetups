@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import { withNamespaces } from 'react-i18next'
 
 import Layout from '../components/layout'
