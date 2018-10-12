@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import { I18nextProvider } from "react-i18next";
+import { I18nextProvider } from 'react-i18next'
 
-import i18n from "./i18n";
+import i18n from './i18n'
 
 import './layout.css'
 
