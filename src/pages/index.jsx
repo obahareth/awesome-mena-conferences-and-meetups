@@ -6,6 +6,7 @@ import { withNamespaces } from 'react-i18next'
 import Layout from '../components/layout'
 import Conferences from '../components/conferences'
 import Meetups from '../components/meetups'
+import Tabs from '../components/tabs'
 
 let parseConferences = data => {
   // TODO: Make this safer
@@ -40,14 +41,14 @@ const IndexPage = ({ t, data }) => {
             'meetups'
           )} ${t('in_mena')}`}
         </div>
-        <div id="conferences">
-          <h2>{t('Conferences')}</h2>
-          <Conferences conferences={conferences} />
-        </div>
-        <div id="meetups">
-          <h2>{t('Meetups')}</h2>
-          <Meetups meetups={meetups} />
-        </div>
+        <Tabs>
+          <div id="conferences" label={t('Conferences')}>
+            <Conferences conferences={conferences} />
+          </div>
+          <div id="meetups" label={t('Meetups')}>
+            <Meetups meetups={meetups} />
+          </div>
+        </Tabs>
         <div className="text-grey-darker font-thin">
           {t('sign_up_for_updates')}
         </div>
