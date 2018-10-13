@@ -38,10 +38,11 @@
     "build": "npm run build:css && gatsby build",
     "develop": "npm run watch:css & gatsby develop",
     "format": "prettier --write 'src/**/*.{js,jsx}'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
+    "jest": "^23.6.0",
     "prettier": "^1.14.2"
   },
   "repository": {
