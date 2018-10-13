@@ -38,7 +38,7 @@
     "build": "npm run build:css && gatsby build",
     "develop": "npm run watch:css & gatsby develop",
     "format": "prettier --write 'src/**/*.{js,jsx}'",
-    "test": "./node_modules/jest/bin/jest.js",
+    "test": "./node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
