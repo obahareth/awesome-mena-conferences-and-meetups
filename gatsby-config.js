@@ -1,6 +1,9 @@
+const languages = require('./src/data/languages')
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
+    languages,
   },
   pathPrefix: '/awesome-mena-conferences-and-meetups',
   plugins: [
@@ -38,6 +41,14 @@ module.exports = {
         rule: {
           include: /assets/,
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyForNull: 'ar',
+        langKeyDefault: languages.defaultLangKey,
+        useLangKeyLayout: false,
       },
     },
   ],

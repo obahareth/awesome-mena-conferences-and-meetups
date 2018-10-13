@@ -21,6 +21,11 @@ let i18nConfig = {
   react: {
     wait: true,
   },
+
+  detection: {
+    lookupFromPathIndex: 0,
+    order: ['path'],
+  },
 }
 
 if (config.pathPrefix && config.pathPrefix.length > 0) {
