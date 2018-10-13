@@ -24,6 +24,12 @@ TODO: see [issue #8](/../../issues/8)
 yarn install
 ```
 
+## Testing
+
+```bash
+yarn test
+```
+
 ### Development mode
 
 ```bash
