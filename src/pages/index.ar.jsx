@@ -10,7 +10,11 @@ class IndexPage extends React.Component {
     let meetups = parseMeetups(data)
     let conferences = parseConferences(data)
 
-    return <IndexContent conferences={conferences} meetups={meetups} />
+    return (
+      <div dir="rtl">
+        <IndexContent conferences={conferences} meetups={meetups} />
+      </div>
+    )
   }
 }
 
