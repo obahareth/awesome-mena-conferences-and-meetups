@@ -36,7 +36,7 @@
     "watch:css": "postcss src/styles/index.css -o src/components/layout.css -w",
     "build": "npm run build:css && gatsby build",
     "develop": "npm run watch:css & gatsby develop",
-    "format": "prettier --write '**/*.{js,jsx}'",
+    "format": "prettier --write 'src/**/*.{js,jsx}'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
