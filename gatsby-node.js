@@ -8,6 +8,10 @@
 const fs = require('fs-extra')
 const path = require('path')
 
+// XMLHttpRequest polyfill
+global.XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+
+
 exports.onPostBuild = (args, pluginOptions) => {
   console.log('Copying locales')
   fs.copySync(
