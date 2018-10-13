@@ -28,12 +28,6 @@ let i18nConfig = {
   },
 }
 
-if (config.pathPrefix && config.pathPrefix.length > 0) {
-  i18nConfig.backend = {
-    loadPath: `${config.pathPrefix}/locales/{{lng}}/{{ns}}.json`,
-  }
-}
-
 i18n
   .use(Backend)
   .use(LanguageDetector)

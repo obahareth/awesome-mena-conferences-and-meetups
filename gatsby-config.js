@@ -5,7 +5,6 @@ module.exports = {
     title: 'Gatsby Default Starter',
     languages,
   },
-  pathPrefix: '/awesome-mena-conferences-and-meetups',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
@@ -46,7 +45,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-i18n',
       options: {
-        langKeyForNull: 'ar',
+        langKeyForNull: 'any',
         langKeyDefault: languages.defaultLangKey,
         useLangKeyLayout: false,
       },
