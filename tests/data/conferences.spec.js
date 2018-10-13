@@ -23,6 +23,11 @@ describe('conferences', () => {
   test('English data file', () => {
     testLocalizedData(englishData)
   })
+
+  it('Number of English & Arabic conferences are identical', () => {
+    expect(arabicData.length).toEqual(englishData.length)
+  })
+
   it('Each conference/meetup has both an Arabic and English entry', () => {
     arabicIdentifiers = arabicData.map(c => c.identifier).sort()
     englishIdentifiers = englishData.map(c => c.identifier).sort()
