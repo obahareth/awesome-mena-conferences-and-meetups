@@ -1,5 +1,5 @@
 import React from 'react'
-import { navigate } from 'gatsby'
+import { navigate, withPrefix } from 'gatsby'
 import { withNamespaces } from 'react-i18next'
 
 class RedirectIndex extends React.PureComponent {
@@ -8,8 +8,9 @@ class RedirectIndex extends React.PureComponent {
 
     // Skip build, Browsers only
     if (typeof window !== 'undefined') {
+      const homeUrl = withPrefix('/ar/');
       this.props.i18n.changeLanguage('ar')
-      navigate('/ar')
+      navigate(homeUrl)
     }
   }
 
