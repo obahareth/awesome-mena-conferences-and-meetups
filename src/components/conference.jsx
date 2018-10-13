@@ -8,14 +8,14 @@ const Conference = ({ conference }) => (
 
     <div className="p-4">
       <div className="flex justify-between font-semibold mb-4 text-sm">
-        <div className="">{conference.date}</div>
-        <div>{conference.location}</div>
+        <div className="wrap-words">{conference.date}</div>
+        <div className="wrap-words">{conference.location}</div>
       </div>
 
       <div className="leading-normal">{conference.description}</div>
       <div className="flex justify-between mt-4">
         <a
-          className="no-underline text-purple-dark hover:underline"
+          className="no-underline text-purple-dark hover:underline truncate"
           href={conference.website}
         >
           {conference.website}

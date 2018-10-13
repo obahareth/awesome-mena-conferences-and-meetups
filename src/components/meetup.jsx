@@ -10,7 +10,7 @@ const Meetup = ({ meetup }) => (
       <div className="leading-normal">{meetup.description}</div>
       <div className="flex justify-between mt-4">
         <a
-          className="no-underline text-purple-dark hover:underline"
+          className="no-underline text-purple-dark hover:underline truncate"
           href={meetup.website}
         >
           {meetup.website}
