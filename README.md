@@ -27,5 +27,5 @@ yarn install
 ### Development mode
 
 ```bash
-gatsby develop
+yarn develop
 ```
