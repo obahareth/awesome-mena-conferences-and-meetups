@@ -2,6 +2,8 @@ import React from 'react'
 import { navigate, withPrefix } from 'gatsby'
 import { withNamespaces } from 'react-i18next'
 
+import Layout from '../components/layout'
+
 class RedirectIndex extends React.PureComponent {
   componentDidMount() {
     const homeUrl = withPrefix('/ar/')
@@ -9,7 +11,7 @@ class RedirectIndex extends React.PureComponent {
   }
 
   render() {
-    return <div />
+    return <Layout><div /></Layout>
   }
 }
 
