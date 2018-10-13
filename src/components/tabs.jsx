@@ -29,7 +29,7 @@ class Tabs extends Component {
 
     return (
       <div className="tabs">
-        <nav className="px-8 pt-2">
+        <nav className="pt-2">
           <ul className="-mb-px flex justify-center list-reset">
             {children.map(child => {
               const { label } = child.props

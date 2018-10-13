@@ -20,12 +20,12 @@ class Tab extends Component {
     } = this
 
     let className =
-      'text-lg no-underline border-b-2 tracking-wide font-bold text-xs py-3 mr-8 cursor-pointer'
+      'flex-1 rounded text-center text-lg no-underline tracking-wide font-bold py-3 cursor-pointer '
 
     if (activeTab === label) {
-      className += ' text-purple-dark border-purple-dark'
+      className += ' bg-purple-dark text-white border-purple border-b-2'
     } else {
-      className += ' text-grey-dark border-transparent'
+      className += ' bg-grey-lightest text-grey-dark border-grey-dark shadow-sm border-b'
     }
 
     return (
