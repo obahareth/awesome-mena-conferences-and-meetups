@@ -1,14 +1,22 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { withNamespaces } from 'react-i18next'
 
 import { parseMeetups, parseConferences } from '../helpers/graphql-json-parser'
 import IndexContent from '../components/index-content'
 
-let IndexPage = ({ data }) => {
-  let meetups = parseMeetups(data)
-  let conferences = parseConferences(data)
+class IndexPage extends React.Component {
+  componentDidMount() {
+    this.props.i18n.changeLanguage('ar')
+  }
 
-  return <IndexContent conferences={conferences} meetups={meetups} />
+  render() {
+    let { data } = this.props
+    let meetups = parseMeetups(data)
+    let conferences = parseConferences(data)
+
+    return <IndexContent conferences={conferences} meetups={meetups} />
+  }
 }
 
 export const query = graphql`
@@ -51,4 +59,4 @@ export const query = graphql`
   }
 `
 
-export default IndexPage
+export default withNamespaces('index')(IndexPage)
