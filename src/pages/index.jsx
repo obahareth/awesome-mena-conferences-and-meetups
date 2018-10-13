@@ -8,8 +8,8 @@ import Conferences from '../components/conferences'
 import Meetups from '../components/meetups'
 import Tabs from '../components/tabs'
 
-import GithubIcon from "!svg-react-loader!../images/svg-icons/github.svg?name=GithubIcon";
-import GlobeIcon from "!svg-react-loader!../images/svg-icons/globe.svg?name=GlobeIcon";
+import GithubIcon from '!svg-react-loader!../images/svg-icons/github.svg?name=GithubIcon'
+import GlobeIcon from '!svg-react-loader!../images/svg-icons/globe.svg?name=GlobeIcon'
 
 let parseConferences = data => {
   // TODO: Make this safer
@@ -56,7 +56,7 @@ const IndexPage = ({ t, data }) => {
           </button>
         </div>
         <a href="https://github.com/obahareth/awesome-mena-conferences-and-meetups">
-          <GithubIcon className="w-8 h-6 fill-current text-purple-dark mt-4"/>
+          <GithubIcon className="w-8 h-6 fill-current text-purple-dark mt-4" />
         </a>
       </div>
     </Layout>

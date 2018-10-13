@@ -1,5 +1,5 @@
 import React from 'react'
-import TwitterIcon from "!svg-react-loader!../images/svg-icons/twitter.svg?name=TwitterIcon";
+import TwitterIcon from '!svg-react-loader!../images/svg-icons/twitter.svg?name=TwitterIcon'
 
 const Meetup = ({ meetup }) => (
   <div className="bg-white rounded shadow">
@@ -20,7 +20,7 @@ const Meetup = ({ meetup }) => (
           className="no-underline text-purple-dark hover:underline"
           href={`https://twitter.com/${meetup.twitter}`}
         >
-          <TwitterIcon className="w-8 h-6 fill-current text-purple-dark"/>
+          <TwitterIcon className="w-8 h-6 fill-current text-purple-dark" />
         </a>
       </div>
     </div>

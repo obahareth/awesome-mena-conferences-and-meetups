@@ -25,7 +25,8 @@ class Tab extends Component {
     if (activeTab === label) {
       className += ' bg-purple-dark text-white border-purple border-b-2'
     } else {
-      className += ' bg-grey-lightest text-grey-dark border-grey-dark shadow-sm border-b'
+      className +=
+        ' bg-grey-lightest text-grey-dark border-grey-dark shadow-sm border-b'
     }
 
     return (
