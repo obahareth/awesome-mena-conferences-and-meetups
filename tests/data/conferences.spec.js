@@ -28,7 +28,7 @@ describe('conferences', () => {
     expect(arabicData.length).toEqual(englishData.length)
   })
 
-  test('Each conference/meetup has both an Arabic and English entry', () => {
+  test('Each conference has both an Arabic and English entry', () => {
     arabicIdentifiers = arabicData.map(c => c.identifier).sort()
     englishIdentifiers = englishData.map(c => c.identifier).sort()
 
