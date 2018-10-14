@@ -30,7 +30,12 @@ class Tab extends Component {
     }
 
     return (
-      <li className={`${className} ${first ? 'rounded-l-full':''} ${last ? 'rounded-r-full':''}`} onClick={onClick}>
+      <li
+        className={`${className} ${first ? 'rounded-l-full' : ''} ${
+          last ? 'rounded-r-full' : ''
+        }`}
+        onClick={onClick}
+      >
         {label}
       </li>
     )

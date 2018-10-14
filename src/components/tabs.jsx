@@ -41,7 +41,7 @@ class Tabs extends Component {
                   label={label}
                   onClick={onClickTabItem}
                   first={index === 0}
-                  last={index === children.length-1}
+                  last={index === children.length - 1}
                 />
               )
             })}
