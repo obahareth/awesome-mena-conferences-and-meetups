@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div className="main h-screen border-purple-dark border-t-4">
+        <div className="font-sans main h-screen border-purple-dark border-t-4">
           {children}
         </div>
       </I18nextProvider>

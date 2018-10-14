@@ -30,8 +30,8 @@ class Tabs extends Component {
     return (
       <div className="tabs">
         <nav className="pt-2">
-          <ul className="-mb-px flex justify-center list-reset">
-            {children.map(child => {
+          <ul className="-mb-px flex justify-center list-reset rounded">
+            {children.map((child, index) => {
               const { label } = child.props
 
               return (
@@ -40,6 +40,8 @@ class Tabs extends Component {
                   key={label}
                   label={label}
                   onClick={onClickTabItem}
+                  first={index === 0}
+                  last={index === children.length-1}
                 />
               )
             })}
