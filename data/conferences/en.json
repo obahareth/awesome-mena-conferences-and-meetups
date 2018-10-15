@@ -4,10 +4,173 @@
       "identifier": "app_world",
       "name": "App World",
       "description": "It aims to be the Middle East’s largest exhibition specialized on applications, it gathers a lot of local and international applications under one roof which gives investors, and application owners an opportunity to collaborate and network, also it will support the Saudi start-ups by providing a platform to highlight and launch them. The exhibition will host thousands of visitors to learn about new technologies, and to uplift their technical knowledge.",
-      "date": "17 - 20 September 2018",
+      "date": "17 - 20 September, 2018",
       "location": "Riyadh International Convention & Exhibition Center, Riyadh, Saudi Arabia",
       "website": "http://gevents.com.sa/site/event/applications-word/",
       "twitter": "@appsworld_sa"
+    }, 
+    {
+      "name": "International Conference on Management, Engineering, Science & Technology",
+      "description": "The International Conference on Management, Engineering, Science & Technology focuses on avionics, computer integrated manufacturing, power generation, transmission, and distribution, biophysics, classical physics, analytical chemistry, accessing and constructing digital information, drilling and completion technology, business communication, bioinformatics, nanomaterials and nanocomposites, and much more.",
+      "date": "25 -26 October, 2018",
+      "location": "Hyatt Place Dubai/Al Rigga, Dubai, UAE"
+    }, 
+    {
+      "name": "HR TECH MENA SUMMIT",
+      "description": "It's time to own the future of HR. Only HR Tech Confex in the MENA region",
+      "date": "24 -25 April, 2019",
+      "location": "Dubai, UAE"
+    }, 
+    {
+      "name": "DigiMarCon Middle East - Digital Marketing Conference",
+      "description": "DigiMarCon Middle East 2018 is your chance to Hear from the most audacious and provocative speakers in the digital marketing industry. Gain insight into emerging strategies, the latest innovative technologies, and best practices.- Network with thought leaders, build your network and collaborate with your peers. DigiMarCon Middle East 2018 Digital Marketing Conference will be held from October 23rd to 24th, 2018 at the luxurious Hyatt Regency in Dubai, United Arab Emirates. Whether your goal is to reinforce customer loyalty, improve lead generation, increase sales, or drive stronger consumer engagement, the DigiMarCon Middle East 2018 program has been specifically designed to help attendees develop their audience. Immerse yourself in topics such as digital strategy, programmatic advertising, web.",
+      "date": "23 - 24 October, 2018",
+      "location": "Hyatt Regency Dubai, Dubai, UAE"
+    },
+    {
+      "name": "International Conference on Artificial Intelligence and Applications",
+      "description": "The International Conference on Artificial Intelligence and Applications will provide an excellent international forum for sharing knowledge and results in theory, methodology and applications of Artificial Intelligence and its applications. The Conference looks for significant contributions to all major fields of the Artificial Intelligence, Soft Computing in theoretical and practical aspects and aims to provide a platform to the researchers and practitioners from both academia as well as industry to meet and share cutting-edge development in the field.",
+      "date": "27 - 28 October, 2018",
+      "location": "Dubai, UAE"
+    },
+    {
+      "name": "International Conference On Signal And Image Processing",
+      "description": "International Conference on Signal and Image Processing is a forum for presenting new advances and research results in the fields of Digital Image Processing and bring together leading researchers, engineers and scientists in the domain of interest from around the world. The scope of the conference covers all theoretical and practical aspects of the Signal, Image Processing & Pattern Recognition.",
+      "date":"27 - 28 October, 2018",
+      "location": "Dubai, UAE"
+    },
+    {
+      "name": "International Conference on Computer Science, Information Technology and Applications",
+      "description": "The International Conference on Computer Science, Information Technology and Applications will provide an excellent international forum for sharing knowledge and results, in theory, methodology and applications of Computer Science, Engineering and Information Technology.",
+      "date": "27 - 28 October, 2018",
+      "location": "Dubai, UAE"
+    },
+    {
+      "name": "Evolve - Digital Transformation Forum",
+      "description": "The Evolve - Digital Transformation Forum will play a critical role in making transformation happen and research shows companies which have succeeded in delivering a fundamental transformation of their business through technology benefit from a significantly better financial performance than their peers. We will bring industry leaders to share their journey on how they have invested in technology which allowed them to transform their business.",
+      "date": "30 October, 2018",
+      "location": " Habtoor Grand Resort Autograph Collection, Dubai, UAE"
+    }, 
+    {
+      "name": "GCC Forensic Science Conference & Exhibition",
+      "description": "The inaugural GCC Forensic Science Conference opened its doors alongside GCC DNA Symposium to over 900 attendees in 2017. The 2nd installment will combine both events into one and will see it return on a much larger scale.Much like the inaugural event, GCC Forensics Exhibition & Conference is an event focusing on the latest innovations and challenges facing the forensic science community.The GCC Forensics Exhibition & Conference will take delegates on a journey starting at the scene of crime and finishing in the courtroom. The event will offer a unique 360 degree viewpoint of the entire forensics industry.",
+      "date": "30 - 31 October, 2018",
+      "location": " Dusit Thani Abu Dhabi, Abu Dhabi, UAE"
+    },
+    {
+      "name": "The Dubai Conference on Court Excellence and Innovation",
+      "description": "The conference will identify international best practice and challenges for Courts around the globe. We will discuss practical strategies that are vital to achieving court excellence within all judicial systems. Building on the success of the ICCE Conference in 2017 held in Melbourne, Australia, The Dubai Conference on Court Excellence and Innovation: Today & Tomorrow will provide delegates from around the world insight into the developments taking place in court innovation, service excellence and look at future technologies like AI, blockchain, robotics and their legal implications on courts around the world.",
+      "date": "7 - 8 November, 2018",
+      "location": "The Ritz-Carlton, Dubai, UAE"
+    },
+    {
+      "name": "Blockchain Summit",
+      "description": "Our speakers, are subject matter experts, who will examine the impact of Blockchain on various industries, the challenges and opportunities it presents. The conference will have presentations, short tutorials, interactive panel discussions and solution-based case studies. In addition to learning, it will help in building partnerships in the emerging Blockchain space.",
+      "date": "12 November, 2018",
+      "location": "JW Marriott Hotel Dubai, Dubai, UAE"
+    },
+    {
+      "name": "EmTech MENA",
+      "description": "EmTech is your opportunity to discover future trends and to understand the technologies that will drive the new global economy. It’s where tech, business, and culture converge, and where you gain access to the most innovative people and companies in the world. EmTech MENA is organized by MIT Technology Review Arabia, the region’s edition of the world’s oldest and most respected technology publication since 1899. EmTech is organized by Haykal Media and Dubai Future Foundation. Since its inception in 1999, EmTech has become the world’s most influential conference on emerging technologies that matter, growing into a global community which runs in the United States, Europe, South America, India, Hong Kong, China and Singapore.",
+      "date": "23 -24 September, 2018",
+      "location": "Jumeirah Emirates Towers, Dubai",
+      "twitter": "@emtechmena"
+    },
+    {
+      "name": "RSA Conference Abu Dhabi",
+      "description": "The RSA Conference in Abu Dhabi will be connecting attendees with the people and insights that will empower attendees to stay ahead of cyber threats. It is the only event that offers such a broad range of reasons. Valuable content presented by some of the industry’s most forward-thinking leaders. The chance to network with thousands of peers. And the inspiration you need to protect your organization now and in the future.",
+      "date": "14 November, 2018",
+      "location": "Four Seasons Hotel Abu Dhabi at Al Maryah Island, Abu Dhabi, UAE"
+    },
+    {
+      "name": "The Building Automation and Maintenance Summit",
+      "description": "The Building Automation and Maintenance Summit will bring together senior executives from Commercial Real Estate, Facilities Management, developers and construction companies, architecture and design firms and IoT to discover new strategies & hear new trends supporting smart buildings. It will feature leading local and international expert speakers who will show how IoT can be leveraged to enhance building performance, better manage portfolio risk and liquidity, transform the tenant and user experience and create new revenue streams through Automation.",
+      "date": "14 November, 2018",
+      "location": "Dubai, UAE"
+    },
+    {
+      "name": "International Conference on Web Information Systems Engineering",
+      "description": "The International Conference on Web Information Systems Engineering aims to provide an international platform for researchers, professionals, and industrial practitioners to share their knowledge and insights in the rapidly growing area of web technologies, methodologies, and applications.",
+      "date": "12 - 15 November, 2018",
+      "location": "Zayed University, Dubai, UAE"
+    },
+    {
+      "name": "IDC IT Forum Roadshow",
+      "description": "The IDC IT Forum Roadshow aims to equip the attendees with in-depth insights into innovative digital strategies that will help their organization unlock new revenue streams, increase profitability, and revolutionize the customer experience.",
+      "date": "15 November, 2018",
+      "location": "The Ritz-Carlton, Dubai, UAE"
+    },
+    {
+      "name": "International Conference on Innovations in Information Technology",
+      "description": "The International Conference on Innovations in Information Technology is a premier forum for the presentation and discussion of technology advances and research results in the field of Information Technology (IT). The conference brings together leading scientists, researchers and academics in IT from around the world.",
+      "date": "18 - 19 November, 2018",
+      "location": "United Arab Emirates University, Al Ain,  UAE"
+    },
+    {
+      "name": "Dubai Futuretech Decentralized 4.0",
+      "description": "Dubai Futuretech Decentralized 4.0 highlights the fireside chat and panel discussions, project launch, experience zone startups, keynote sessions, investors meet, government meet, startup competition, demonstrations of use cases, and much more.",
+      "date": "21 - 22 November, 2018",
+      "location": "Jumeirah Emirates Towers Hotel, Dubai, UAE"
+    },
+    {
+      "name": "International Conference on Networks, Communications, Wireless and Mobile Computing",
+      "description": "The International Conference on Networks, Communications, Wireless, and Mobile Computing conference will cover areas like Communication Network Architectures and Design Communication Network Protocols Discrete Algorithms and Discrete Modeling Emerging technologies for next-generation network Future Internet architecture, protocols, and services Mobile and wireless Networks Network applications Network Operation and Management Network Security and Privacy Network Services and Applications Ubiquitous networks & Cloud Computing.",
+      "date": "23 - 24 November, 2018",
+      "location": "Dubai, UAE"
+    },
+    {
+      "name": "International Conference on Software Engineering and Applications Dubai",
+      "description": "International Conference on Software Engineering and Applications Dubai will provide an excellent international forum for sharing knowledge and results in theory, methodology, and applications of Software Engineering and Applications. It aims to bring together researchers and practitioners from academia and industry to focus on understanding Modern software engineering concepts and establishing new collaborations in these areas.",
+      "date": "23 - 24 November, 2018",
+      "location": "Dubai, UAE"
+    },
+    {
+      "name": "Future Accessibility Summit Dubai",
+      "description": "The Future Accessibility Summit Dubai is a 2-day initiative which will provide an interactive platform for best practice benchmarking, case study insight sessions, new technology and solution showcase, analysis, strategic collaboration and discussion of challenges and opportunities in the assistive technology sector. It will bring together government authorities, experts, project owners and developers, international and regional organizations, researchers, accessibility and assistive technology solution providers to share intelligence and discuss the new regulations and implementation of accessibility projects in built environment, universal tourism, mobility and transportation, and digital technology.",
+      "date": "26 - 27 November, 2018",
+      "location": " Park Hyatt Dubai, Dubai, UAE"
+    },
+    {
+      "name": "DatacenterDynamics Converged",
+      "description": "DatacenterDynamics Converged is the region's most important forum for business, operations and technology executives responsible for the design, build, management and operation of data centre and cloud infrastructure to deliver on the high-velocity demands of the digital economy. Connected daily lives and businesses are becoming a reality across the Middle East, as services such as virtual offices, connected education and medicine on mobile devices are all supported by cloud-based applications.",
+      "date": "27 November, 2018",
+      "location": "Hyatt Regency Dubai, Dubai, UAE"
+    },
+    {
+      "name": "Blockchain Summit Dubai",
+      "description": "Blockchain Summit Dubai is a 1 day conference and exhibition connecting over 400 industry leaders, business decision makers, tech innovators and investors. Blockchain Summit has grown exponentially in content and audience size. Based on unrivalled content and exceptional networking opportunities, Blockchain Summit Dubai is part of the largest dedicated Blockchain Event Series in the World. No co-located side events. A purely Blockchain focused audience. Join the Summit keynote programme for unparalleled discussion with visionary speakers. Cutting edge case studies offer a “how-to” approach to deploying Blockchain technologies across industries like finance, insurance, logistics, utilities, media and entertainment, and more. Roundtable discussions and hosted networking sessions provide exceptional opportunities for attendees to connect with peers and deep-dive into topics.Join us on the 27th November for The leading Blockchain for business event in the Middle East.",
+      "date": "27 November, 2018",
+      "location": "The Address Dubai Marina, Dubai, UAE"
+    },
+    {
+      "name": "Women in Digital & Data Dubai",
+      "description": "The Women in Digital & Data Dubai is a premier forum which is the perfect platform for women in digital and data industries to come together to collaborate, learn & share practical how-to strategies to benefit their organizations and their careers. The event highlights include expert speaker line-up with 15+ women sharing their insights, experiences and journeys in digital and data, innovative keynote sessions, keynote interviews and panel discussions, giving the opportunity to network and engage with like-minded peers and hear from expert leaders unique to the marketplace for solutions and advice for the attendees to take away, and much more.",
+      "date": "11 December, 2018",
+      "location": "Dubai, UAE"
+    }, 
+    {
+      "name": "International Conference on Multimedia Technology, Industrial Engineering, IT and Renewable Energy Applications",
+      "description": "Sphere of distinction for engineering and applied sciences provides an opportunity for the delegates to meet, interact and exchange new ideas in the various areas of applied sciences, especially on materials engineering and application. Sphere of distinction for engineering and applied sciences aims to proclaim knowledge and share new ideas amongst the professionals, industrialists and students from research areas of materials engineering and application to share their research experiences and indulge in interactive discussions and special sessions at the event.",
+      "date": "14 - 15 December, 2018",
+      "location": "BEST WESTERN PREMIER Deira Hotel Dubai, Dubai, UAE"
+    },
+    {
+      "name": "International Conference on Networks & Communications",
+      "description": "International Conference on Networks & Communications will provide an excellent international forum for sharing knowledge and results in theory, methodology, and applications of Computer Networks & Data Communications.",
+      "date": "22-23 December, 2018",
+      "location": "Dubai, UAE"
+    },
+    {
+      "name": "International Conference on Computer Science, Engineering and Information Technology",
+      "description": "The International Conference on Computer Science and Information Technology will provide an excellent international forum for sharing knowledge and results in theory, methodology and applications of Computer Science, Engineering and Information Technology. The Conference looks for significant contributions to all major fields of the Computer Science and Information Technology in theoretical and practical aspects.",
+      "date": "22-23 December, 2018",
+      "location": "Dubai, UAE"
+    },
+    {
+      "name": "Digital Games Conference Dubai",
+      "description": "The Digital Games Conference Dubai will be dedicated to the game industry. Attendees include games developers and publishers, experts from the games industry and Virtual reality and augmented reality, technology solutions providers, telecom companies, stores, in addition to advertising agencies, media agencies, social media agencies and influencers, payments providers, external development providers, localization experts and more.",
+      "date": "6 - 7 February, 2019",
+      "location": "Dubai, UAE"
     }
   ]
 }
