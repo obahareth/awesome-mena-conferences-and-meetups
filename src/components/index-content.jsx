@@ -14,12 +14,12 @@ let IndexContent = ({ t, conferences, meetups, i18n }) => (
   <Layout>
     <Helmet title={t('heading')} />
     <GithubCornerRightIcon className="mt-4" />
-    <div className="container mx-auto py-24 px-16">
+    <div className="container mx-auto lg:py-24 lg:px-16 px-4 py-12">
       <div className="flex items-center">
         <GlobeIcon className="w-8 h-8 fill-current text-purple-dark" />
         <h1 className="ml-2">{t('title')}</h1>
       </div>
-      <div className="py-4 text-lg">
+      <div className="py-4 text-lg mb-4 md:mb-8">
         {`${t('check_out_awesome')} ${t('conferences')} ${t('and')} ${t(
           'meetups'
         )} ${t('in_mena')}`}

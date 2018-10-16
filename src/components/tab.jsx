@@ -16,21 +16,26 @@ class Tab extends Component {
   render() {
     const {
       onClick,
-      props: { activeTab, label },
+      props: { activeTab, label, first, last },
     } = this
 
     let className =
-      'flex-1 rounded text-center text-lg no-underline tracking-wide font-bold py-3 cursor-pointer '
+      'flex-1 text-center text-lg no-underline tracking-wide font-bold py-3 cursor-pointer '
 
     if (activeTab === label) {
       className += ' bg-purple-dark text-white border-purple border-b-2'
     } else {
       className +=
-        ' bg-grey-lightest text-grey-dark border-grey-dark shadow-sm border-b'
+        ' bg-grey-lightest text-purple-dark border-purple-dark shadow-sm border'
     }
 
     return (
-      <li className={className} onClick={onClick}>
+      <li
+        className={`${className} ${first ? 'rounded-l-full' : ''} ${
+          last ? 'rounded-r-full' : ''
+        }`}
+        onClick={onClick}
+      >
         {label}
       </li>
     )
