@@ -5,6 +5,12 @@
       "description": "تَجمُّع للمهتمين والشغوفين بالبيانات في الرياض لتسهيل التواصل بينهم وتبادل الخبرات",
       "website": "https://meetup.com/DataGeeks",
       "twitter": "@DataRiyadh"
+    },
+    {
+      "name": "Sharqiah Data Geeks",
+      "description": "تَجمُّع للمهتمين والشغوفين بالبيانات في الشرقية لتسهيل التواصل بينهم وتبادل الخبرات",
+      "website": "https://meetup.com/Sharqiyah-Data-Geeks/",
+      "twitter": "@DataSharqiyah"
     }
   ]
 }
