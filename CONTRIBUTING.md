@@ -1,5 +1,5 @@
 * All conferences and meetups must have both an Arabic and English version added (might change this to support Arabic-only/English-only conferences). You can submit in one language only and the maintainers will help translate to another language.
-* Each conference and meetup should have a unique `identifier` for both Arabic and English versions.
+* Each conference and meetup should have a unique `identifier` for both Arabic and English versions. This identifier is used in unit tests to ensure that each event is available in both Arabic and English.
 
 **All conferences should have this structure**
 * Conference fields
