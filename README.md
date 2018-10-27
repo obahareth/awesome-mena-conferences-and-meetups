@@ -1,6 +1,6 @@
 # awesome-mena-conferences-and-meetups
 
-[![Build Status](https://travis-ci.org/lumie31/awesome-mena-conferences-and-meetups.svg?branch=master)](https://travis-ci.org/lumie31/awesome-mena-conferences-and-meetups)
+[![Build Status](https://travis-ci.com/obahareth/awesome-mena-conferences-and-meetups.svg?branch=master)]
 
 A list of awesome conferences and meetups in the [MENA region](https://en.wikipedia.org/wiki/MENA). This will hopefully join the [awesome lists](https://github.com/sindresorhus/awesome#readme) (but will also need a markdown version of all conferences and meetups, this could be generated via the JSON files).
 
