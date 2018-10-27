@@ -33,6 +33,13 @@
       "name": "GITEX Meetup - Kubernetes Workshop",
       "description": "Are you attending GITEX in Dubai? Join us for a hands-on workshop in the Hall 5, in the Oracle Exhibition area, right next to the entrance you won’t miss it! Brian Mathews and myself will be showing how to get started with Kubernetes and we will be helping with creating Helm Charts for your apps and helping you deploy them to Kubernetes. Bring your laptops and join us. We will also broadcast to youtube live from the event if you are not in Gitex. As always just enter go to the channel. https://www.youtube.com/channel/UCPpdGsinMIzZkJ7HOrg5ANA",
       "date": "16 October, 2018"
+    },
+    {
+      "identifier": "flutter_egypt",
+      "name": "Flutter Egypt",
+      "description": "This is a group for anyone interested in Mobile Development using Google Flutter which is new SDK framework form Google to Build applications on IOS & Android with the same code base also for anyone wants to know more about Dart Language also The group is managed by volunteers, and we are always happy to accept new volunteers interested to be part of the organizational team.",
+      "website": "https://www.meetup.com/FlutterEgypt/",
+      "twitter": "@FlutterEgypt"
     }
   ]
 }
