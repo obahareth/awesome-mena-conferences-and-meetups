@@ -5,7 +5,14 @@
       "description": "We are a group of enthusiasts who love to extract insights from data and to spread the knowledge and skills required to do so. We focus more on the process and techniques than tools yet we do discuss tools from time to time. Our topics include but not limited to data science, analytics, open data, data hackathons, visualization and of course big data. Bring your curiosity and we shall bring the value together.",
       "website": "https://meetup.com/DataGeeks",
       "twitter": "@DataRiyadh"
-    }, 
+    },
+    {
+      "identifier": "sharqiah_data_geeks",
+      "name": "Sharqiah Data Geeks",
+      "description": "We are a group of enthusiasts in the Eastern Province who love to extract insights from data and to spread the knowledge and skills required to do so. We focus more on the process and techniques than tools yet we do discuss tools from time to time. Our topics include but not limited to data science, analytics, open data, data hackathons, visualization and of course big data. Bring your curiosity and we shall bring the value together.",
+      "website": "https://meetup.com/Sharqiyah-Data-Geeks/",
+      "twitter": "@DataSharqiyah"
+    },
     {
       "name": "Dubai Blockchain Channel",
       "description": "Blockchain meetup",
@@ -26,6 +33,13 @@
       "name": "GITEX Meetup - Kubernetes Workshop",
       "description": "Are you attending GITEX in Dubai? Join us for a hands-on workshop in the Hall 5, in the Oracle Exhibition area, right next to the entrance you won’t miss it! Brian Mathews and myself will be showing how to get started with Kubernetes and we will be helping with creating Helm Charts for your apps and helping you deploy them to Kubernetes. Bring your laptops and join us. We will also broadcast to youtube live from the event if you are not in Gitex. As always just enter go to the channel. https://www.youtube.com/channel/UCPpdGsinMIzZkJ7HOrg5ANA",
       "date": "16 October, 2018"
+    },
+    {
+      "identifier": "flutter_egypt",
+      "name": "Flutter Egypt",
+      "description": "This is a group for anyone interested in Mobile Development using Google Flutter which is new SDK framework form Google to Build applications on IOS & Android with the same code base also for anyone wants to know more about Dart Language also The group is managed by volunteers, and we are always happy to accept new volunteers interested to be part of the organizational team.",
+      "website": "https://www.meetup.com/FlutterEgypt/",
+      "twitter": "@FlutterEgypt"
     }
   ]
 }
