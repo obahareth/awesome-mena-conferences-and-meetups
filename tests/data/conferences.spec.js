@@ -7,7 +7,7 @@ function testLocalizedData(data) {
   data.forEach(conference => {
     expect(conference).toBeInstanceOf(Object)
     expect(conference).toHaveProperty(
-      // 'identifier',
+      'identifier',
       'name',
       'description',
       'date'
