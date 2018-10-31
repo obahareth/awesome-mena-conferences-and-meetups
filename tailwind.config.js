@@ -845,13 +845,13 @@ module.exports = {
     cursor: ['responsive'],
     display: ['responsive'],
     flexbox: ['responsive'],
-    float: ['responsive'],
+    float: ['responsive', 'direction'],
     fonts: ['responsive'],
     fontWeights: ['responsive', 'hover', 'focus'],
     height: ['responsive'],
     leading: ['responsive'],
     lists: ['responsive'],
-    margin: ['responsive'],
+    margin: ['responsive', 'direction'],
     maxHeight: ['responsive'],
     maxWidth: ['responsive'],
     minHeight: ['responsive'],
@@ -860,7 +860,7 @@ module.exports = {
     opacity: ['responsive'],
     outline: ['focus'],
     overflow: ['responsive'],
-    padding: ['responsive'],
+    padding: ['responsive', 'direction'],
     pointerEvents: ['responsive'],
     position: ['responsive'],
     resize: ['responsive'],
@@ -900,7 +900,12 @@ module.exports = {
       // center: true,
       // padding: '1rem',
     }),
+    require('tailwindcss-dir')()
   ],
+  
+  experiments: {
+    pluginVariant: true
+  },
 
   /*
   |-----------------------------------------------------------------------------
@@ -917,4 +922,5 @@ module.exports = {
     important: false,
     separator: ':',
   },
+
 }
