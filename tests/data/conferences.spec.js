@@ -24,14 +24,14 @@ describe('conferences', () => {
     testLocalizedData(englishData)
   })
 
-  // test('Number of English & Arabic conferences are identical', () => {
-  //   expect(arabicData.length).toEqual(englishData.length)
-  // })
+  test('Number of English & Arabic conferences are identical', () => {
+    expect(arabicData.length).toEqual(englishData.length)
+  })
 
-  // test('Each conference has both an Arabic and English entry', () => {
-  //   arabicIdentifiers = arabicData.map(c => c.identifier).sort()
-  //   englishIdentifiers = englishData.map(c => c.identifier).sort()
+  test('Each conference has both an Arabic and English entry', () => {
+    arabicIdentifiers = arabicData.map(c => c.identifier).sort()
+    englishIdentifiers = englishData.map(c => c.identifier).sort()
 
-  //   expect(arabicIdentifiers).toEqual(englishIdentifiers)
-  // })
+    expect(arabicIdentifiers).toEqual(englishIdentifiers)
+  })
 })
